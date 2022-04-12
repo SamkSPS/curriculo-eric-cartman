@@ -1,0 +1,54 @@
+/*Definindo para 0 o css padrão do navegador*/
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+/*Declarando uma font para todo tipo de texto dentro do body*/
+body{
+	font-family: sans-serif;
+}
+
+/*Container(DIV) principal após a body declando 
+a margin das laterais a espessura da borda e centralizando as divs*/
+#container{
+	border: solid 1px black;
+	margin-top: 30px;
+	margin-left: 30%;
+	margin-right: 30%;
+	justify-content: center;
+}
+
+/*Id responsavel por dar um padding de 20px deixando o texto e 
+imagem um pouco mais distante das laterais topo e fundo*/
+#corpo{
+	padding: 20PX;
+}
+
+/*Esse id é responsavel pela a imagem no canto superior direito ele esta 
+alinhando e flutuando a mesma no canto direito*/
+#img_cartman{
+	float: right;
+}
+
+/*Id respondavel por definir o tamanho e a posição do nome no curriculo*/
+#name{
+	position: absolute;
+	margin-top: 20px;
+}
+
+/*Class responsavel por denifir a margin top das divs no curriculo*/
+.margin_de_divs{
+	margin-top: 20px;
+}
+
+/*Class responsavel por fazer a quebra de formatação do codigo*/
+.clear{
+	clear: both;
+}
+
+/*Definindo css direto a tag P para que todas as tags P do codigo 
+tenham padding lef 3px*/
+p{
+	padding-left: 3px;
+}
