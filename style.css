@@ -42,7 +42,7 @@ alinhando e flutuando a mesma no canto direito*/
 	margin-top: 20px;
 }
 
-/*Class responsavel por fazer a quebra de formatação do codigo*/
+/*Class responsavel por limpar a formatação do float*/
 .clear{
 	clear: both;
 }
